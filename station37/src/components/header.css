@@ -30,7 +30,16 @@
   cursor: pointer;
 }
 
-.download ios {
+.downloadIos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
   background: darkgrey;
   color: lightgray;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
 }

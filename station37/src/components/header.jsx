@@ -13,11 +13,13 @@ function header() {
           This app is only for crew members from NSRI Station 37. The login
           details will only be shared with the crew.
           <br />
+          (Currently unavailable for IOS)
+          <br />
           Download the app below
         </p>
         <div className="submit-container">
           <div className="download andriod">Andriod</div>
-          <div className="download ios">IOS</div>
+          <div className="downloadIos">IOS</div>
         </div>
         <img src={WebsitePhone} alt="Mockup" width={600} />
       </div>
