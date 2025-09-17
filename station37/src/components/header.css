@@ -12,8 +12,16 @@
 }
 .submit-container {
   display: flex;
+  flex-direction: column; /* stack buttons above the image */
+  align-items: center;
   gap: 30px;
   margin: 60px auto;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .download {
@@ -42,4 +50,9 @@
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.instructions-container {
+  text-align: center;
+  color: whitesmoke;
 }

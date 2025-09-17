@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import "bootstrap";
 import WebsitePhone from "./WebsitePhone.png";
+import inImage from "./inImage.jpeg";
 
 function header() {
   return (
@@ -18,10 +19,34 @@ function header() {
           Download the app below
         </p>
         <div className="submit-container">
-          <div className="download andriod">Andriod</div>
-          <div className="downloadIos">IOS</div>
+          <div className="download-buttons">
+            <a href="./com.ShadowWolf.x37base_app.apk" className="download">
+              <div>Android</div>
+            </a>
+            <div className="downloadIos">iOS</div>
+          </div>
+          <img src={WebsitePhone} alt="Mockup" width={600} />
         </div>
-        <img src={WebsitePhone} alt="Mockup" width={600} />
+      </div>
+
+      <div className="instructions-container">
+        <h2>Installation Instructions</h2>
+        <img src={inImage} alt="Installation" width={300} />
+        <p className="paragraph">
+          1. Open the Settings app on your device.
+          <br />
+          2. Go to Apps & notifications (or similar, e.g., "Apps" then tap the
+          three-dot menu).
+          <br />
+          3.Tap Special app access.
+          <br />
+          4. Select Install unknown apps.
+          <br />
+          5. Find and tap the app you'll use to download or open the APK (e.g.,
+          Chrome, a file manager).
+          <br />
+          6. Toggle on the Allow from this source option.
+        </p>
       </div>
     </div>
   );
